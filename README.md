@@ -27,8 +27,9 @@ The notebook's cells, in source order:
 1. Resolve and display the seven URL environment variables (server-side
    `AIRFLOW_API_INTERNAL_URL` vs browser-bound `MARTIN_PUBLIC_URL`) as one
    diagnostic cell.
-2. Self-author **six** Airflow DAG files into `${AIRFLOW_DAGS_DIR}` — the OSM
-   pipeline plus GTFS, gpq-tiles, DuckDB MVT, DuckDB freestiler, and Shortbread.
+2. Self-author the Airflow DAG files into `${AIRFLOW_DAGS_DIR}` — the OSM
+   pipeline plus the GTFS, gpq-tiles, DuckDB MVT, DuckDB freestiler, and
+   Shortbread pipelines.
 3. Trigger every DAG in parallel and poll each to success.
 4. Analyze the GeoParquet with GPU Polars (`cudf-polars-cu13`), pyarrow,
    DuckDB Spatial, `polars-st` and `geopolars`.
@@ -66,7 +67,7 @@ Deploy and open the notebook in marimo at `http://localhost:2718`; navigate to
 ## Related
 
 - Owning skill: `/charly-versa:notebook-osm` — the notebook content, the
-  dual-DAG self-authoring pattern, the two URL spaces, and the surfaced-and-fixed
+  DAG self-authoring pattern, the two URL spaces, and the surfaced-and-fixed
   bug catalog.
 - Runtime: `/charly-versa:marimo-layer`, `/charly-versa:airflow-layer`,
   `/charly-versa:osm-tools-layer`.

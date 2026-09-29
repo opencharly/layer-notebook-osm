@@ -17,7 +17,7 @@ Canonical files:
 ## Load these skills first (R0)
 
 - `/charly-versa:notebook-osm` — the owning skill. The notebook content, the
-  dual-DAG self-authoring pattern, the server-side vs browser-bound URL spaces,
+  DAG self-authoring pattern, the server-side vs browser-bound URL spaces,
   the MapLibre/folium rendering split, and the bug catalog. Load before editing
   or troubleshooting.
 - `/charly-image:layer` — the candy authoring reference (`charly.yml` schema,
