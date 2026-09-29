@@ -47,6 +47,7 @@ Compose the layer in a box's `candy:` list — the `versa` image does exactly th
 ```yaml
 versa:
   candy:
+    # the named box's value is the box BODY; `base:` and the `candy:` list are its keys
     base: cachyos
     candy:
       - '@github.com/opencharly/layer-notebook-osm:v2026.240.0121'
