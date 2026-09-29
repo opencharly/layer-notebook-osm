@@ -59,7 +59,7 @@ Deploy and open the notebook in marimo at `http://localhost:2718`; navigate to
 ## Layout
 
 - `charly.yml` — the `notebook-osm:` candy entity (the `data:` mapping and the
-  `plan:` checks) plus the embedded `skill:` entity (the `notebook-osm-skill:` node).
+  `plan:` checks) plus the embedded `skill:` entity.
 - `data/notebooks/osm-monaco-viz.py` — the notebook.
 - `README.md` — this user overview.
 

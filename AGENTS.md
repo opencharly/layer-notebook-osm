@@ -9,8 +9,7 @@ projected into the marketplace corpus as `/charly-versa:notebook-osm`.
 
 Canonical files:
 
-- `charly.yml` — the `notebook-osm:` candy entity and the `notebook-osm-skill:`
-  skill entity.
+- `charly.yml` — the candy entity and the embedded `skill:` entity.
 - `data/notebooks/osm-monaco-viz.py` — the notebook.
 - `.github/workflows/tag-on-merge.yml` — CalVer tag + `CHANGELOG/` on merge.
 - `README.md` — user overview only; never agent guidance.
@@ -36,8 +35,7 @@ Canonical files:
 
 ## Modify this repo
 
-- Edit the `notebook-osm:` candy entity AND the `notebook-osm-skill:` skill
-  entity in `charly.yml` together. The skill is the projected usage source, so a
+- Edit the candy entity AND the embedded `skill:` entity in `charly.yml` together. The skill is the projected usage source, so a
   data, path, or behaviour change not mirrored in the skill leaves the corpus
   stale.
 - The notebook is a data-only artifact: no packages or services belong in this
