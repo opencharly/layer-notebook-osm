@@ -47,7 +47,6 @@ Compose the layer in a box's `candy:` list — the `versa` image does exactly th
 ```yaml
 versa:
   candy:
-    # the named box's value is the box BODY; `base:` and the `candy:` list are its keys
     base: cachyos
     candy:
       - '@github.com/opencharly/layer-notebook-osm:v2026.240.0121'
@@ -60,7 +59,7 @@ Deploy and open the notebook in marimo at `http://localhost:2718`; navigate to
 ## Layout
 
 - `charly.yml` — the `notebook-osm:` candy entity (the `data:` mapping and the
-  `plan:` checks) plus the embedded `skill:` entity.
+  `plan:` checks) plus the embedded `skill:` entity (the `notebook-osm-skill:` node).
 - `data/notebooks/osm-monaco-viz.py` — the notebook.
 - `README.md` — this user overview.
 
