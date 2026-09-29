@@ -42,7 +42,7 @@ mode.
 
 ## How to use it
 
-Compose the layer inside a box body: the box name's `candy:` node IS the box body, whose keys are `base:` and a `candy:` list — the `versa` image does exactly this:
+Compose the layer by pinning this repo in a box's `candy:` list — the `versa` image does exactly this:
 
 ```yaml
 versa:
